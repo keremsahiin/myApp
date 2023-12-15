@@ -1,4 +1,5 @@
 .NavBarItems{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +39,7 @@
     padding-right: 10px;
 } 
 .nav-links:hover{   
-    background-color: #01959a;
+    background-color: #A33128;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -59,7 +60,7 @@ button{
     
 }
 button:hover{
-    background-color: #01959a;
+    background-color: #A33128;
     color: #fff;
 }
 .menu-icons{
@@ -101,7 +102,7 @@ button:hover{
         padding: 2rem 0;
     }
     .nav-links:hover{
-        background: #01959a;
+        background: #A33128;
         transition: none;
     }
     button{
@@ -114,7 +115,7 @@ button:hover{
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background: #01959a;
+        background: #A33128;
         text-decoration: none;
         color: #fff;
         font-size: 1.2rem;
