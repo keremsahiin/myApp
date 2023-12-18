@@ -1,7 +1,9 @@
 import React from 'react'
 import NavBar from "../components/NavBar"
 import Hero from '../components/Hero';
-import ContactImg from "../assets/u3.jpg";
+import ContactImg from "../assets/u1.jpg";
+import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 function Contact() {
   return (
     <>
@@ -12,6 +14,8 @@ function Contact() {
       title = "CONTACT"
       buttonClass = "hide"
       />
+      <ContactForm/>
+      <Footer/>
     </>
   )
 }

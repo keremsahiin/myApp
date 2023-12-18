@@ -44,7 +44,7 @@ image img:nth-child(){
     top: -10%;
     right: 0;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1110px) {
     .destination{
         margin: 4rem 2rem;
     }

@@ -8,19 +8,19 @@ import DestinationData from "./DestinationData";
 const Destination = () => {
     return ( 
         <div className="destination">
-            <h1>Deneme</h1>
-            <p>asdadasd asdadadasd adsdada lorem asdoıandıoad</p>
+            <h1>What can we here ?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <DestinationData
             className = "first-des"
-            heading = "DENEME"
-            text = "Xmmxzcmzopcmzopcm ompzxocmpzocmzc pzomcpzocmpzocmAASasASsASAS."
+            heading = "Scanning Your Web Sites"
+            text = "Sed ut perspi "
             img1 = {Image1}
             img2 = {Image2}
             />
             <DestinationData
             className = "first-des-reverse"
-            heading = "XXXXXXX"
-            text = "ASDASDASDADSXZCXZCXZCXZCRTETERVCHHFGHFGVBVCBCVB"
+            heading = "Find Your Vulnerability"
+            text = "Sed ut perspiciatis unde omnis iste "
             img1 = {Image3}
             img2 = {Image4}
             />
