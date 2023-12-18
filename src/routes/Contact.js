@@ -7,13 +7,10 @@ function Contact() {
     <>
       <NavBar/>
       <Hero
-      cName = "hero"
+      cName = "hero-mid"
       heroImg = {ContactImg}
       title = "CONTACT"
-      text = "Keep the Save"
-      buttonText = "Scanning Type"
-      url = "/"
-      buttonClass = "show"
+      buttonClass = "hide"
       />
     </>
   )

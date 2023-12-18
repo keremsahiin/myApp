@@ -7,13 +7,10 @@ function Service() {
     <>
       <NavBar/>
       <Hero
-      cName = "hero"
+      cName = "hero-mid"
       heroImg = {ServiceImg}
       title = "SERVİCE"
-      text = "Keep the Save"
-      buttonText = "Scanning Type"
-      url = "/"
-      buttonClass = "show"
+      buttonClass = "hide"
       />
     </>
   )
