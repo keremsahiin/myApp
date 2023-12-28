@@ -50,6 +50,21 @@
 .menu-icons{
     display: none;
 }
+#sign{
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: #A33128;
+    
+}
+#sign:hover{
+    background-color: #ece8e8;
+    color: black;
+}
 
 @media screen and (max-width: 1110px) {
     .NavBarItems{

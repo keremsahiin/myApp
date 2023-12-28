@@ -27,7 +27,7 @@ export default class NavBar extends Component {
             {MenuItems.map((item, index) => {
                 return (
                 <li key={index}>
-                <Link className={item.cName} to={item.url}>
+                <Link className={item.cName} to={item.url} id={item.id}>
                     <i className={item.icon}>{item.title}</i>
                 </Link>
             </li>
