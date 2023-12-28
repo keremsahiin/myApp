@@ -21,7 +21,6 @@ function SignOperations() {
                         <input type="submit" value="Signup" />
                     </form>
                 </div>
-
                 <div className="form login">
                     <header onClick={handleClick}>Login</header>
                     <form action="/">
