@@ -17,7 +17,7 @@
       30px
       120px;
     background: #161a1b;
-    box-shadow: 0 10px 55px 5px #fff;
+    box-shadow: 0 10px 55px 5px #0C0E0F;
     overflow: hidden;
   }
   .form.login {
@@ -35,7 +35,7 @@
       140px;
     border-radius: 50%;
     height: 100%;
-    background: #fff;
+    background: #8b2720;
     transition: all
       0.6s
       ease;
@@ -51,13 +51,13 @@
     header {
     font-size: 30px;
     text-align: center;
-    color: #fff;
+    color: #8b2720;
     font-weight: 600;
     cursor: pointer;
   }
   .form.login
     header {
-    color: #333;
+    color: #0C0E0F;
     opacity: 0.6;
   }
   .wrapper.active
@@ -86,9 +86,9 @@
       15px;
     font-size: 16px;
     font-weight: 400;
-    color: #333;
+    color: #fff;
     border-radius: 8px;
-    background: #fff;
+    background: #333;
   }
   .form.login
     input {
@@ -122,7 +122,7 @@
     color: #fff;
   }
   form a {
-    color: #333;
+    color: #0C0E0F;
     text-decoration: none;
   }
   form
@@ -139,7 +139,7 @@
   }
   .form.login
     input[type="submit"] {
-    background: #161a1b;
+    background: #333;
     color: #fff;
     border: none;
   }
