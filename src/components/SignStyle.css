@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#A33128,#0C0E0F);
+    background-image: linear-gradient(#811E16,#060809);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@
     padding: 20px
       30px
       120px;
-    background: #161a1b;
+    background: #060809;
     box-shadow: 0 10px 55px 5px #0C0E0F;
     overflow: hidden;
   }
@@ -35,7 +35,7 @@
       140px;
     border-radius: 50%;
     height: 100%;
-    background: #8b2720;
+    background: #0E1011;
     transition: all
       0.6s
       ease;
@@ -51,13 +51,13 @@
     header {
     font-size: 30px;
     text-align: center;
-    color: #8b2720;
+    color: #fff;
     font-weight: 600;
     cursor: pointer;
   }
   .form.login
     header {
-    color: #0C0E0F;
+    color: #fff;
     opacity: 0.6;
   }
   .wrapper.active
@@ -88,19 +88,21 @@
     font-weight: 400;
     color: #fff;
     border-radius: 8px;
-    background: #333;
+    background: #0C0E0F;
+    border: 1px
+      solid
+      #aaa;
+  }
+  .wrapper input{
+    border: 1px
+      solid
+      #aaa;
   }
   .form.login
     input {
     border: 1px
       solid
       #aaa;
-  }
-  .form.login
-    input:focus {
-    box-shadow: 0
-      1px 0
-      #ddd;
   }
   form
     .checkbox {
@@ -122,7 +124,7 @@
     color: #fff;
   }
   form a {
-    color: #0C0E0F;
+    color: #fff;
     text-decoration: none;
   }
   form
@@ -136,10 +138,14 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    
   }
   .form.login
     input[type="submit"] {
-    background: #333;
+
     color: #fff;
-    border: none;
+    border: 1px
+      solid
+      #aaa;
   }
+  
