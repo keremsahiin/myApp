@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBar from "../components/NavBar"
 import Hero from '../components/Hero';
-import AboutImg from "../assets/u1.jpg";
 import Footer from '../components/Footer';
 import AboutUs from '../components/AboutUs';
 function About() {
@@ -10,9 +9,9 @@ function About() {
       <NavBar/>
       <Hero
       cName = "hero-mid"
-      heroImg = {AboutImg}
       title = "ABOUT"
-      buttonClass = "hide"
+      inputClass = "hide"
+      IclassName = "no"
       />
       <AboutUs/>
       <Footer/>

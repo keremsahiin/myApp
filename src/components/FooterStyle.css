@@ -1,6 +1,7 @@
 .footer{
     padding: 4rem 6rem;
-    background-color: #811E16;
+    /*background-color: #811E16;*/
+    background: linear-gradient(#0E1011,#811E16);
     color: white;
 }
 .top{

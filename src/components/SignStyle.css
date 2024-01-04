@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#811E16,#060809);
+    background: linear-gradient(#811E16 0%,#0E1011 75%);
     margin: 0;
     padding: 0;
     box-sizing: border-box;

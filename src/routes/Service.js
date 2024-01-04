@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBar from "../components/NavBar"
 import Hero from '../components/Hero';
-import ServiceImg from "../assets/u1.jpg";
 import Footer from '../components/Footer';
 import ScanType from '../components/ScanType';
 function Service() {
@@ -10,9 +9,9 @@ function Service() {
       <NavBar/>
       <Hero
       cName = "hero-mid"
-      heroImg = {ServiceImg}
       title = "SERVİCE"
-      buttonClass = "hide"
+      inputClass = "hide"
+      IclassName = "no"
       />
       <ScanType/>
       <Footer/>
