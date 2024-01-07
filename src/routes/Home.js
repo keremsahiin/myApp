@@ -12,9 +12,6 @@ function Home() {
       cName = "hero"
       title = "SECURITY"
       text = "Take the your secure for attacks"
-      inputPlaceHolder = "Enter your domain or IP address"
-      inputClass = "show"
-      IclassName = "fas fa-search"
       />
       <Destination/>
       <ScanType/>

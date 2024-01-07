@@ -10,8 +10,6 @@ function About() {
       <Hero
       cName = "hero-mid"
       title = "ABOUT"
-      inputClass = "hide"
-      IclassName = "no"
       />
       <AboutUs/>
       <Footer/>

@@ -10,8 +10,6 @@ function Hero(props) {
             <p>
             {props.text}
             </p>
-            <input className={props.inputClass} placeholder={props.inputPlaceHolder}></input>
-            <i className={props.IclassName}></i>
         </div>
     </div>
   )

@@ -23,6 +23,7 @@
     height: 200px;
     overflow: hidden;
     border-radius: 7px;
+    opacity: 1;
 }
 .s-img img{
     width: 100%;

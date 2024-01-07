@@ -10,8 +10,6 @@ function Service() {
       <Hero
       cName = "hero-mid"
       title = "SERVİCE"
-      inputClass = "hide"
-      IclassName = "no"
       />
       <ScanType/>
       <Footer/>

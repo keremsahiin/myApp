@@ -10,8 +10,6 @@ function Contact() {
       <Hero
       cName = "hero-mid"
       title = "CONTACT"
-      inputClass = "hide"
-      IclassName = "no"
       />
       <ContactForm/>
       <Footer/>
