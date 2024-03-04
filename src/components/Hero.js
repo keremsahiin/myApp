@@ -10,6 +10,12 @@ function Hero(props) {
             <p>
             {props.text}
             </p>
+            <hr className='vr'/>
+            <div className='search'>
+              <i class="search-icon fa-solid fa-magnifying-glass"></i>
+              <input className='search-input' type='search' placeholder='Search'></input>
+            </div>
+            
         </div>
     </div>
   )

@@ -11,7 +11,7 @@ function Home() {
       <Hero
       cName = "hero"
       title = "SECURITY"
-      text = "Take the your secure for attacks"
+      text = "Take the your secure for attack" //Cümlenin devamı için ortalama yapılacak..
       />
       <Destination/>
       <ScanType/>
