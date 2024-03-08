@@ -16,6 +16,7 @@
     border-radius: .3rem;
     border: 1px solid #6b6b6b;
     background: #e4e4e4;
+    color: black;
 }
 .form-container textarea{
     padding: 1rem;
@@ -23,6 +24,8 @@
     border-radius: .3rem;
     border: 1px solid #6b6b6b;
     background: #e4e4e4;
+    font-size: 16px;
+    
 }
 .form-container button{
     display: inline;
@@ -40,7 +43,7 @@ button{
     
 }
 button:hover{
-    background-color: #A33128;
+    background-color: #3c0161;
     color: #fff;
 }
 @media screen and (max-width:1110px) {
