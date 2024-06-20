@@ -1,0 +1,19 @@
+.body{
+    background-image: linear-gradient(to top, #fff, #2988d7 40%);
+}
+.button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.button:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
